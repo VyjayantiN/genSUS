@@ -750,8 +750,8 @@ nav a:hover {
 	background-image: url(images/about_bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 15rem;
-	padding-bottom: 15rem;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
 }
 
 .get {
