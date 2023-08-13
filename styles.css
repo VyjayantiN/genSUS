@@ -74,41 +74,22 @@ nav a:hover {
 .active {
 	color: white;
 }
-@media (min-width: 992px) {
-    nav {
-        justify-content: space-between;
-        padding: 10px 100px; /* Adjust the padding as needed */
-    }
-    
-    .navbar {
-        flex-direction: row;
-    }
-    
-    .navbar-collapse {
-        justify-content: flex-end;
-    }
-    
-    .navbar-nav {
-        flex-direction: row;
-    }
-    
-    .nav-link {
-        padding: 10px 15px; /* Adjust the padding as needed */
-    }
-}
+
+
 
 /*end navbar */
 /*hero section*/
+/* Default styling */
 .simple {
     font-family: 'League Spartan', sans-serif;
     font-weight: bold;
-    font-size: 2.5rem; /* Use rem units */
-    margin-left: 0.5rem; /* Use rem units */
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
     color: red;
 }
 
 #stupid {
-    font-size: 6rem; /* Use rem units */
+    font-size: 6rem;
     font-weight: bolder;
 }
 
@@ -128,23 +109,23 @@ nav a:hover {
 }
 
 .teamgen {
-    margin-left: 16rem; /* Use rem units */
+    margin-left: 16rem;
 }
 
 .contact-button {
     background-color: #808080;
     color: #ffffff;
     border: none;
-    padding: 0.625rem 1.25rem; /* Use rem units */
-    border-radius: 0.3125rem; /* Use rem units */
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
     cursor: pointer;
-    font-size: 1rem; /* Use rem units */
+    font-size: 1rem;
     display: flex;
     align-items: center;
 }
 
 .contact-button i {
-    margin-left: 0.625rem; /* Use rem units */
+    margin-left: 0.625rem;
 }
 
 /* Style for the mouse icon */
@@ -161,35 +142,8 @@ nav a:hover {
 }
 
 .mouse-icon-link i {
-    font-size: 2rem; /* Use rem units */
+    font-size: 2rem;
     pointer-events: none;
-}
-
-.home-content {
-    margin-left: 1.875rem; /* Use rem units */
-}
-/* Default styling */
-.stupidsec {
-    background-color: rgb(24, 25, 24);
-    padding-bottom: 8rem;
-    padding-top: 7rem;
-    padding-left: 6rem;
-}
-
-.teamgen {
-    margin-left: 16rem;
-}
-
-.contact-button {
-    padding: 0.625rem 1.25rem;
-    border-radius: 0.3125rem;
-    font-size: 1rem;
-	margin-top: 1rem;
-}
-
-.mouse-icon-link {
-    margin-top: 4rem;
-    transform: translate(-80%, -50%);
 }
 
 .home-content {
@@ -197,6 +151,8 @@ nav a:hover {
 }
 
 /* Media queries for responsiveness */
+
+/* Small screens (up to 768px) */
 @media (max-width: 768px) {
     .stupidsec {
         padding-left: 2rem;
@@ -219,8 +175,8 @@ nav a:hover {
     .home-content {
         margin-left: 1rem;
     }
-}
-@media (max-width: 768px) {
+
+    /* Adjusted font sizes for smaller screens */
     .simple {
         font-size: 2rem;
     }
@@ -235,7 +191,127 @@ nav a:hover {
     }
 }
 
-/*hero end*/
+/* Medium screens (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .stupidsec {
+        padding-left: 4rem;
+    }
+
+    .teamgen {
+        margin-left: 8rem;
+    }
+
+    .contact-button {
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.375rem;
+    }
+
+    .mouse-icon-link {
+        margin-top: 3rem;
+        transform: translate(-60%, -50%);
+    }
+
+    .home-content {
+        margin-left: 1.5rem;
+    }
+
+    /* Adjusted font sizes for medium screens */
+    .simple {
+        font-size: 2.2rem;
+    }
+
+    .teamgen {
+        margin-left: 14rem;
+        font-size: 1.2rem;
+    }
+
+    #stupid {
+        font-size: 5rem;
+    }
+}
+
+/* Large screens (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .stupidsec {
+        padding-left: 6rem;
+    }
+
+    .teamgen {
+        margin-left: 12rem;
+    }
+
+    .contact-button {
+        padding: 0.875rem 1.75rem;
+        border-radius: 0.4375rem;
+    }
+
+    .mouse-icon-link {
+        margin-top: 4rem;
+        transform: translate(-80%, -50%);
+    }
+
+    .home-content {
+        margin-left: 2rem;
+    }
+
+    /* Adjusted font sizes for large screens */
+    .simple {
+        font-size: 2.5rem;
+    }
+
+    .teamgen {
+        margin-left: 16rem;
+        font-size: 1.5rem;
+    }
+
+    #stupid {
+        font-size: 6rem;
+    }
+}
+
+/* Extra-large screens (1441px and above) */
+@media (min-width: 1441px) {
+	na
+    .stupidsec {
+        padding-left: 8rem;
+		margin-top: 5rem;
+    }
+
+    .teamgen {
+        margin-left: 16rem;
+    }
+
+    .contact-button {
+        padding: 1rem 4rem;
+        border-radius: 0.5rem;
+		margin-top: 4rem;
+		font-size: 2rem;
+    }
+
+    .mouse-icon-link {
+        margin-top: 5rem;
+        transform: translate(-100%, -50%);
+    }
+
+    .home-content {
+        margin-left: 3rem;
+    }
+
+    /* Adjusted font sizes for extra-large screens */
+    .simple {
+        font-size: 4.5rem;
+    }
+
+    .teamgen {
+        font-size: 3rem;
+		margin-left: 21rem;
+    }
+
+    #stupid {
+        font-size: 10rem;
+    }
+}
+
 
 /*contact form */
 
