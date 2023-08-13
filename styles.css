@@ -74,6 +74,28 @@ nav a:hover {
 .active {
 	color: white;
 }
+@media (min-width: 992px) {
+    nav {
+        justify-content: space-between;
+        padding: 10px 100px; /* Adjust the padding as needed */
+    }
+    
+    .navbar {
+        flex-direction: row;
+    }
+    
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+    }
+    
+    .nav-link {
+        padding: 10px 15px; /* Adjust the padding as needed */
+    }
+}
 
 /*end navbar */
 /*hero section*/
@@ -925,40 +947,36 @@ nav a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: 6rem;
-	margin-bottom: 5rem;
   }
   
   /* Custom Card Styles */
   .custom-card {
-
+	flex: 0 0 calc(33.33% - 20px);
 	background-color: rgb(47, 43, 43);
 	border-radius: 10px;
 	margin: 10px;
-
+	margin-right: 0;
 	padding: 15px;
-	
   }
   .custom-card-title{
 	color:white;
   }
   .custom-card-img {
-	max-width: 100%;
+	max-width: 90%;
 	height: auto;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
   }
   
   .custom-card-body {
-	padding: 2px;
+	padding: 15px;
 	color: white;
 	font-size: 1.7rem;
   }
   
   .custom-card-title {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	margin-bottom: 10px;
-	margin-top: 1rem;
   }
   .custom-card-designation {
 	font-size: 1.25rem;
@@ -977,6 +995,3 @@ nav a:hover {
 	color:white;
 	cursor: pointer;
  }
- .custom-card:hover {
-	transform: scale(1.1); /* Scale up on hover */
-  }
