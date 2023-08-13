@@ -177,7 +177,7 @@ nav a:hover {
     }
 
     /* Adjusted font sizes for smaller screens */
-    .simple {
+    .simple2 {
         font-size: 2rem;
     }
 
@@ -216,7 +216,7 @@ nav a:hover {
     }
 
     /* Adjusted font sizes for medium screens */
-    .simple {
+    .simple2 {
         font-size: 2.2rem;
     }
 
@@ -255,7 +255,7 @@ nav a:hover {
     }
 
     /* Adjusted font sizes for large screens */
-    .simple {
+    .simple2 {
         font-size: 2.5rem;
     }
 
@@ -298,7 +298,7 @@ nav a:hover {
     }
 
     /* Adjusted font sizes for extra-large screens */
-    .simple {
+    .simple2 {
         font-size: 4.5rem;
     }
 
@@ -629,7 +629,7 @@ nav a:hover {
 
 .dark-grey-card {
 	color: white;
-	background-color: rgb(47, 43, 43);
+	background-color: rgb(47, 44, 44);
 	text-align: center;
 	margin-top: 0.5rem;
 }
@@ -1034,6 +1034,9 @@ nav a:hover {
 	margin-right: 0;
 	padding: 15px;
   }
+  .custom-card2{
+	flex: 0 0 calc(50% - 20px);
+  }
   .custom-card-title{
 	color:white;
   }
@@ -1045,14 +1048,14 @@ nav a:hover {
   }
   
   .custom-card-body {
-	padding: 15px;
+	padding: 30px;
 	color: white;
 	font-size: 1.7rem;
   }
   
   .custom-card-title {
 	font-size: 1.25rem;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
   }
   .custom-card-designation {
 	font-size: 1.25rem;
@@ -1071,3 +1074,44 @@ nav a:hover {
 	color:white;
 	cursor: pointer;
  }
+
+
+ .classic-card {
+	background-color: rgb(47, 44, 44);
+    border-radius: 10px;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+	padding: 1rem;
+  }
+
+  .classic-btn {
+color:white;
+padding-top: 2px;
+margin-top: 1rem;
+  }
+
+  .classic-btn:hover,
+  .classic-btn:focus {
+	color:white;
+    text-decoration: underline;
+  }
+  .classic-card:hover{
+	transform: scale(1.08);
+  }
+  .us1{
+	font-size: 3rem;
+  }
+  .us2{
+	font-size: 3rem;
+  }
+  .us3{
+	font-size: 3rem;
+
+  }
+  .acch{
+	margin-top: 8rem;
+	padding-top: 8rem;
+  }
+  .card-img-top{
+	border-radius: 10px;
+  }
