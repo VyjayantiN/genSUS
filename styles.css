@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
 /*navbar*/
 nav a {
 	color: grey;
+	font-size: larger;
 
 }
 .navbar-toggler-icon {
@@ -37,12 +38,13 @@ nav a {
 }
 nav {
 	background-color: rgb(24, 25, 24);
-	padding: 10px;
+	
 }
 
 nav a:hover {
 	color: white;
 	text-decoration: none;
+	font-size: larger;
 }
 
 .navbar {
@@ -63,12 +65,14 @@ nav a:hover {
 	text-decoration: none;
 	padding: 10px 20px;
 	font-weight: bold;
+	font-size: larger;
 	transition: text-decoration 0.3s ease;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav-link:hover {
 	text-decoration: none;
+	font-size: larger;
 }
 
 .active {
@@ -99,7 +103,20 @@ nav a:hover {
     padding-top: 7rem;
     padding-left: 6rem;
 }
-
+.stupidsec a{
+color:white;
+text-decoration: none;
+}
+.stupidsec a:focus{
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+	}
+.stupidsec a:hover{
+		color:white;
+		text-decoration: none;
+		cursor: pointer;
+		}	
 .st {
     font-family: 'JetBrains Mono', monospace;
 }
@@ -123,6 +140,19 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
+
+.contact-button{
+    background-color: #808080;
+    color: #ffffff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
 
 .contact-button i {
     margin-left: 0.625rem;
@@ -1115,3 +1145,41 @@ margin-top: 1rem;
   .card-img-top{
 	border-radius: 10px;
   }
+  .contact-button {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button i {
+    margin-left: 5px; /* Adding space between text and icon */
+}
+.contact-button:focus {
+    background-color: rgb(161, 157, 157);
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.contact-button:hover {
+    background-color: rgb(161, 157, 157);
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.text-white{
+	color:white;
+}
+.dis-link{
+	color: red;
+	text-decoration: none;
+}
+.dis-link:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
