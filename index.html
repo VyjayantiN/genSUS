@@ -23,10 +23,10 @@
    </head>
    <body>
       
-      <nav class="navbar navbar-expand-lg container-fluid ">
+      <nav class="navbar navbar-expand-lg container-fluid py-2">
          <a class="navbar-brand" href="index.html">
             <!-- Add your icon here (replace 'icon.png' with your icon's file path) -->
-            <img src="images/site_logo_trans.png" class="img-fluid" alt="Icon">
+            <img src="images/Dummy.jpg" class="img-fluid" alt="Icon">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon "><i class="fas fa-bars text-light"></i></span>
@@ -62,10 +62,10 @@
                <h1 class="simple2 ke">Keep It Simple</h1>
                <h1 id="stupid" class="st ">STUPID!</h1>
                <h3 class="teamgen">- Team genSUS</h3>
-               <button class="contact-button">
-               Contact Us
-               <i class="fas fa-arrow-right"></i>
-               </button>
+               <a href="index.html#section4" class="contact-button" id="contactLink">
+                  Contact Us
+                  <i class="fas fa-arrow-right"></i>
+              </a>
                <div class="section1 text-center">
                   <!-- Content of Section 1 -->
                   <br><a href="#section2" class="mouse-icon-link">
@@ -83,9 +83,9 @@
 
 
 
-         <div class="container mx-auto m mb-5 pb-5 mt-3 pt-2" id="section2">
+         <div class="container mx-auto m mb-5 pb-5 mt-5 pt-5" id="section2">
             <h1 class="simple text-center st us3">PROJECTS</h1>
-            <div class="row  mb-5 pt-3  pb-5">
+            <div class="row  mb-5 mt-4 pt-4  pb-5">
        
               <div class="col-md-4">
                 <div class="classic-card" style="width: 18rem;">
@@ -240,7 +240,12 @@
                      <a href="mailto:example@gmail.com" class="icon-wrapper icon-red">
                      <i class="fas fa-envelope icon-red" data-white></i>
                      </a>
-                     <p class="text-center white-text">Mail us at:<br>example@gmail.com</p>
+                     <p class="text-center white-text ">
+                        Mail us at:<br>
+                        <a href="mailto:example@gmail.com" class="email-link dis-link">
+                           example@gmail.com
+                        </a></p>
+
                   </div>
                </div>
                <div class="col-md-6">
@@ -248,7 +253,9 @@
                      <div class="icon-wrapper icon-red">
                         <i class="fab fa-discord icon-red" data-white></i>
                      </div>
-                     <p class="text-center white-text">Join our discord server<br>link</p>
+                     <p class="text-center white-text">Join our discord server<br>
+                        <a href="#" class="dis-link">link </a>
+                     </p>
                   </div>
                </div>
             </div>
